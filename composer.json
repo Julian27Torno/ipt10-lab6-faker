@@ -1,0 +1,20 @@
+{
+    "name": "aufccs/faker",
+    "description": "A project to generate data using faker",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aufccs\\Faker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julian Carlos Torno"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
